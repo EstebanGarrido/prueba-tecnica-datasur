@@ -35,7 +35,7 @@ def login():
     else:
         # Credenciales incorrectas, mostrar mensaje de error
         error_message = "Usuario o contraseña incorrectos. Inténtalo de nuevo."
-        return render_template('auth/login.html', error_message=error_message)
+        return render_template('auth/login.html', error_message = error_message)
 
 
 
